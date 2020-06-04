@@ -1,0 +1,144 @@
+#header{
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    background: rgb(63, 61, 61); 
+    
+
+}
+#intro{
+   padding-top: 20px;
+}
+
+#image{
+    width: 170px;
+    height: 190px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+#header div{
+    color: whitesmoke;
+    font-size: x-large;
+    
+}
+#first{
+    background: rgb(192, 190, 190);
+    padding:5px;  
+}
+#wrapper{
+    padding: 0px;
+    margin-top: 30px;
+   
+}
+.content{
+    border: 1px solid black;
+}
+
+table,th,td{
+    border: 1px solid black;
+    text-align: left;
+    border-collapse: collapse;
+}
+table{
+    padding: 10px;
+    width: 70%;
+    margin: 10px;
+    
+}
+
+
+
+a:hover{
+    background-color: lightgreen;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    color: black;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+.text-primary{
+    color: blue;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(65, 46, 46);
+    color: chartreuse;
+    padding: 1.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid blueviolet;
+}
+#navbar ul{
+    display: flex;
+    align-items:center ;
+    list-style: none;
+}
+
+#navbar h2 a{
+    color: rgb(148, 181, 182);
+    text-decoration: none;
+}
+#navbar li a{
+    text-decoration: none;
+    color: wheat;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    
+}
+#navbar li a:hover{
+    background-color: teal;
+}
+
+#showcase{
+    background:url('./5195ebb8c5f9772deda82aa2937134d3.jpg') no-repeat center/cover ;
+    height: 91.7vh;
+}
+.scontent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 81px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.6);
+    color: #fff;  
+}
+.scontent h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.scontent .btn{
+    font-size: 1.5rem;
+    padding: 1rem 10rem;
+    
+    
+}
+.scontent .btn:hover{
+    background: #3693ff;
+    color: #fff;
+}
+.btn{
+    color: #3693ff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    font-weight: bold;
+}
